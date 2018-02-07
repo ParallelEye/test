@@ -1,0 +1,273 @@
+<html>
+	<head>
+		<title>ParallelEye</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 		<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<meta charset utf="8">
+		<!--fonts-->
+				
+			
+		<!--fonts-->
+		<!--flexislider-->
+		<link href="css/flexslider.css" rel='stylesheet' type='text/css' />
+		<!--bootstrap-->
+			<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<!--coustom css-->
+			<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<!--default-js-->
+			<script src="js/jquery-2.1.4.min.js"></script>
+		<!--bootstrap-js-->
+			<script src="js/bootstrap.min.js"></script>
+		<!--script-->
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+			<!--script-->
+			<script type="text/javascript">
+			jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+			});
+			});
+			</script>
+			<!--script-->
+
+		<!--script-->
+		<style type="text/css">
+			.contact h2{
+				color:#FFFFFF;
+ 	font-weight:bold;
+	font-style:normal;
+	font-size: 14px;
+	padding-left: 20px;
+			}
+			.contact a{
+				color:#979797;
+ 			}
+			body{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#979797;
+ 	}
+		</style>
+	</head>
+	<body>
+		<div class="header" id="home">
+			<div class="header-botom">
+				<nav class="navbar navbar-default">
+				  
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				    </div>
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="../../index.php">Home<span class="sr-only">(current)</span></a></li>
+				        <li><a href="#about" class="scroll">About</a></li>
+				        <li><a href="#downloads" class="scroll">Downloads</a></li>
+				        <li><a href="#citations" class="scroll">Citations</a></li>
+ 				      </ul>
+				      <div class="clearfix"></div>
+				    </div><!-- /.navbar-collapse -->
+				    <div class="clearfix"></div>
+ 				</nav>
+			</div>
+
+</div>
+
+				<div class="container">
+
+					<div class="banner-head"></div>
+						<!--<div class="logo-top">
+							<h1><a href="index.html">ParallelEye Dataset</a></h1>
+						</div>-->
+						<div id="mycarousel" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+							<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#mycarousel" data-slide-to="1"></li>
+							<li data-target="#mycarousel" data-slide-to="2"></li>
+							<li data-target="#mycarousel" data-slide-to="3"></li>
+							<li data-target="#mycarousel" data-slide-to="4"></li>
+							<li data-target="#mycarousel" data-slide-to="5"></li>
+							</ol>
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+									<img src="./images/c1.jpg" alt="audi" />
+									<div class="carousel-caption">
+									<h3>ParallelEye Dataset</h3>
+									<p>Large-scale artificial scenes for traffic vision research</p>
+									</div>
+									</div>
+										<div class="item">
+										<img src="./images/c2.jpg" alt="ferari"/>
+										<div class="carousel-caption">
+										<h3>Ground Truth Bounding Box</h3>
+										<p>Accurate annotation of the bounding boxes</p>
+										</div>
+										</div>
+									<div class="item">
+									<img src="./images/c3.jpg" alt="ferari" />
+									<div class="carousel-caption">
+									<h3>Ground Truth Semantic Segmentation</h3>
+									<p>Automatical pixel-wise semantic annotation</p>
+									</div>
+									</div>
+										<div class="item">
+										<img src="./images/c4.jpg" alt="bmw" />
+										<div class="carousel-caption">
+										<h3>Automatic Depth Map Generation</h3>
+										<p>By using built-in depth buffer information</p>
+										</div>
+										</div>
+									<div class="item">
+									<img src="./images/c5.jpg" alt="ferari" />
+									<div class="carousel-caption">
+									<h3>Environmental Conditions</h3>
+									<p>Sunny, cloudy, rainy, foggy and so on</p>
+									</div>
+									</div>
+										<div class="item">
+										<img src="./images/c6.jpg" alt="bmw" />
+										<div class="carousel-caption">
+										<h3>Static and Dynamic Objects</h3>
+										<p>Pedestrians, vehicles, buildings, sidewalks, poles, traffic signs and so on</p>
+										</div>
+										</div>
+								</div>
+								<!-- Controls -->
+							<a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="padding-top: 30px;padding-bottom: 50px;"></span>
+							<span class="sr-only">Previous</span>
+							</a>
+								<a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="padding-top: 30px;padding-bottom: 50px;"></span>
+								<span class="sr-only">Next</span>
+								</a>
+						</div>
+					 
+				</div>
+			 
+			 
+			
+		
+ 		<div class="body_gallery" id="about">
+			<h3>About</h3>
+			<div class="container">
+				<div class="hd_btm_label">
+ 					<h2>ParallelEye is a virtual dataset of parallel vision.</h2>
+  			</div>
+				<div class="col-md-3 re-sz1">
+					<img src="./images/c7.jpg" alt="/" class="img-responsive"/>
+					<div class="gal_text">
+						<h4>Construction of artificial scene</h4>
+						<p> Transform the real urban road information into the corresponding virtual city road information. Then insert  3D models such as buildings, roads, trees, lane lines into the virtual city through rapid modeling.</p>
+	
+					</div>
+				</div>
+				<div class="col-md-3 re-sz1">
+					<img src="./images/c8.jpg" alt="/" class="img-responsive"/>
+					<div class="gal_text">
+						<h4>Simulated environmental conditions</h4>
+						<p> In order to increase the diversity and fidelity of artificial scene, we control the parameters in the script, such as the material, the shader, and the simulated environmental conditions.</p>
+					</div>
+				</div>
+				<div class="col-md-3 re-sz1">
+					<img src="./images/c9.jpg" alt="/" class="img-responsive"/>
+					<div class="gal_text">
+						<h4>Generation of Ground Truth Annotations</h4>
+						<p>Ground-truth annotations are essential for the design and evaluation of computer vision algorithms. Unity3D is used to automatically generate accurate ground-truth labels: depth, optical flow, object tracking, object detection, instance segmentation, and semantic segmentation.</p>
+					</div>
+				</div>
+				<div class="col-md-3 re-sz1">
+					<img src="./images/c10.jpg" alt="/" class="img-responsive"/>
+					<div class="gal_text">
+						<h4>Properties of ParallelEye</h4>
+						<p>The ParallelEye dataset consists of 40251 frames of virtual images from 7 sequences taken by a virtual car moving   through the city.
+						</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+		 
+			</div>
+		</div>
+
+<div class="body_gallery" id="downloads">
+	<h3>Downloads</h3>
+	<h4 style="font-family: SimHei;">Currently this website is the initial version (in github), we have made a website (see <a href="http://openpv.cn/datasets/paralleleye/">http://openpv.cn/datasets/paralleleye/</a>) to display more details of the ParallelEye dataset. You can download ParallelEye from that website</h4>
+
+	<div class="gal_text_without_box container">
+		<p>ParallelEye 2017 is a large-scale dataset designed to design and evaluate a variety of computer vision models for object detection and tracking, semantic/instance segmentation and so on.</p>
+		<p style="font-family: SimHei;"><strong>
+		PLEASE READ THESE TERMS CAREFULLY BEFORE DOWNLOADING THE PARALLELEYE DATASET. DOWNLOADING OR USING THE DATASET MEANS YOU ACCEPT THESE TERMS.</strong></p>
+		<p>We provide one [.tar] archive per type of data as described below. Our indexes always start from 00001.
+		In the following, </p>
+
+		 <p><label style="font-family: SimHei;">Note that:</label><br> </p>
+		<ul>
+		 <li>"&lt;<label style="font-family: SimHei;">mask</label>&gt;" is the dataset label information,</li>
+		 <li>"&lt;<label style="font-family: SimHei;">year</label>&gt;" is the production year (currently <label style="font-family: SimHei;">2017</label>)</li> 
+		 <li>"&lt;<label style="font-family: SimHei;">area</label>&gt;" is the name of virtual scene, which is the sequence number of the corresponding original “seed” ParellelEye sequence (01, 02, 03, 04, 05, 06, and 07).
+		 </li>
+		 	<li>The placeholder "&lt;<label style="font-family: SimHei;">condition</label>&gt;" denotes one of the 8 different rendering variations in terms of weather conditions.</li> 
+		</ul> 
+		<p>The ground truth for each area consists of a CSV-like text file named as: 
+		<label style="font-family: SimHei;">ParallelEye_&lt;mask&gt;_&lt;year&gt;/&lt;area&gt;/&lt;condition&gt;/.png</label></p>
+
+
+
+
+
+
+
+
+ 	</div>
+
+</div>
+<div id="citations" class="body_gallery">
+		<h3>Citations</h3>
+		<div class="gal_text_without_box container">
+			<p style="font-size: 15px;">All rights of the ParallelEye Dataset  are reversed by the Parallel Vision Technology Innovation Center. It is free for academic research, and your cooperation with us is appreciated. Feel free to contact us if you have any questions.</p>
+		<p style="font-size: 15px;">If the ParallelEye Dataset is used in your research, please cite the following papers:</p>
+		<p style="line-height: 1em;">1. Kunfeng Wang, Chao Gou, Nanning Zheng, James M. Rehg, and Fei-Yue Wang, "Parallel vision for perception and understanding of complex scenes: methods, framework, and perspectives," Artificial Intelligence Review, Oct. 2017, vol. 38, no. 3, pp. 299-329. </p>
+
+<p style="line-height: 1em;">2. Xuan Li, Kunfeng Wang, Yonglin Tian, Lan Yan, and Fei-Yue Wang. "The ParallelEye Dataset: Constructing Large-Scale Artificial Scenes for Traffic Vision Research," IEEE ITSC 2017 Workshop on Transportation 5.0, Yokohama, Japan, October 2017.</p>
+
+<p style="line-height: 1em;">3. Yonglin Tian, Xuan Li, Kunfeng Wang, and Fei-Yue Wang, "Training and Testing Object Detectors with Virtual Images," IEEE/CAA Journal of Automatica Sinica, in press.</p>
+		</div>
+		
+		<hr>
+	</div>
+		 
+		 
+	 
+
+  			<div class="contact">
+				<div class="container">
+					 
+					  <h2>Quick Links</h2>
+      <ul>
+        <li><a href="http://www.ia.cas.cn/">&raquo; Institute of Automation, Chinese Academy of Sciences</a ></li>
+        <li><a href="http://www.qaii.cn/">&raquo; Qingdao Academy of Intelligent Industries</a ></li>
+  <li><a href="http://www.compsys.ia.ac.cn/EN/index.html">&raquo; The State Key Laboratory of Management and Control for Complex Systems</a ></li>
+      </ul>
+					<div class="clearfix"></div>
+				</div>
+
+            </div>
+ 
+
+
+
+	</body>
+</html>
