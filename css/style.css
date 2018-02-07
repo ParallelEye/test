@@ -48,7 +48,7 @@ span.glyphicon.glyphicon-chevron-left,span.glyphicon.glyphicon-chevron-right {
 	margin-right: -86px;
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
-	top: 2.8%;
+	//top: 2.8%;
 }
 a.right.carousel-control, a.left.carousel-control {
  	background: none !important;
@@ -108,8 +108,7 @@ a.right.carousel-control, a.left.carousel-control {
 .hd_btm_label h2 {
 	margin: 0px 0px 25px;
 	font-family: 'ArchivoNarrow';
-	text-transform: capitalize;
-	font-size: 30px;
+ 	font-size: 30px;
 	font-weight: 600;
 	color: #0E1215;
 }
@@ -142,6 +141,11 @@ a.right.carousel-control, a.left.carousel-control {
 	border-right: 3px solid #0dc5dd;
 	border-bottom: 3px solid #FC0;
 	padding: 15px 0px 11px;
+	height: 250px;
+ }
+ .gal_text_without_box{
+ 	padding: 15px 0px 11px;
+	 
  }
  .gal_text h4 {
   	margin-bottom: 10px;
@@ -159,6 +163,27 @@ a.right.carousel-control, a.left.carousel-control {
 	line-height: 1.5em;
 	margin-bottom: 10px;
 	text-align: left;
+}
+.gal_text_without_box p{
+	font-family: 'Arimo';
+	color: #000000;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1em;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.gal_text_without_box   li{
+	font-family: 'Arimo';
+	color: #000000;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 0.5em;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.gal_text_without_box a{
+	color: blue;
 }
 .gal_text a,.gal_text a:hover{
 	padding: 0px 0px 0px 11em;
